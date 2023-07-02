@@ -444,6 +444,11 @@ nav .fas {
     .header-text h1 {
         font-size: 30px;
     }
+
+    #about {
+        padding: 0;
+        color: #ababab;
+    }
     nav .fas {
         display: block;
         font-size: 25px;
