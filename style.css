@@ -408,6 +408,7 @@ nav .fas {
     .flip-card {
         height: 400px;
         width: 400px;
+        margin-top: 12%;
     }
     .header-content {
         height: 100%;
@@ -432,9 +433,7 @@ nav .fas {
         font-size: 16px;
         transform: rotateY(180deg);
         text-align: center;
-        display: flex;
-        align-items: center;
-        flex-flow: column;
+        margin-top: 40%;
     }
     .header-img > img {
         height: 400px;
@@ -486,6 +485,7 @@ nav .fas {
     .about-col-2 {
         font-size: 14px;
     }
+
     .tab-links {
         font-size: 16px;
         margin-right: 20px;
@@ -503,3 +503,15 @@ nav .fas {
     margin-top: -40px;
     display: block;
 }
+
+.reveal{
+    position: relative;
+    transform: translateY(150px);
+    opacity: 0;
+    transition: 1s all ease;
+  }
+  
+  .reveal.active{
+    transform: translateY(0);
+    opacity: 1;
+  }
