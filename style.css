@@ -1,5 +1,4 @@
 
-
 *{
     margin: 0;
     padding: 0;
@@ -69,7 +68,6 @@ nav ul li a:hover::after {
 .header-content {
     display: flex;
     justify-content: space-between;
-    overflow-x: hidden;
 }
 
 .header-text {
@@ -92,7 +90,7 @@ nav ul li a:hover::after {
 }
 
 .header-img {
-    margin-top: 5%;
+    margin-top: 3%;
     animation-duration: 1s;
     animation-timing-function: ease-in-out;
     animation-delay: 0s;
