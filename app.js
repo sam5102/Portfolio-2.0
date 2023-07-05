@@ -35,7 +35,6 @@ function myJobRoles() {
                 i = 0
                 myJobRoles()
             }
-                
         } else {
             clearInterval(myInterval)
             j = 0
@@ -48,4 +47,4 @@ function myJobRoles() {
 
 setTimeout(() => {
     myJobRoles();
-}, 1100);
+}, 1400);
