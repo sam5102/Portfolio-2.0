@@ -48,4 +48,4 @@ function myJobRoles() {
 
 setTimeout(() => {
     myJobRoles();
-}, 1000);
+}, 1100);
