@@ -1,4 +1,7 @@
-
+::-webkit-scrollbar {
+    display: none;
+  }
+  
 *{
     margin: 0;
     padding: 0;
@@ -187,6 +190,8 @@ nav ul li a:hover::after {
 
 .tab-contents {
     display: none;
+    height: 175px;
+    overflow: scroll;
 }
 
 .tab-contents.active-tab {
