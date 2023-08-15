@@ -1,7 +1,7 @@
 ::-webkit-scrollbar {
     display: none;
   }
-  
+
 *{
     margin: 0;
     padding: 0;
@@ -68,6 +68,20 @@ nav ul li a:hover::after {
     width: 100%;
 }
 
+.flip-card {
+    animation: zoom-in-zoom-out 0.6s ease-in-out;
+}
+
+@keyframes zoom-in-zoom-out {
+    0% {
+        transform: scale(1.5, 1.5);
+    }
+    100% {
+        transform: scale(1, 1);
+    }
+
+  }
+
 .header-content {
     display: flex;
     justify-content: space-between;
@@ -77,11 +91,7 @@ nav ul li a:hover::after {
 .header-text {
     margin-top: 18%;
     font-size: 30px;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: slideInLeft;
+
 }
 
 @keyframes slideInLeft {
@@ -95,11 +105,7 @@ nav ul li a:hover::after {
 
 .header-img {
     margin-top: 3%;
-    animation-duration: 1s;
-    animation-timing-function: ease-in-out;
-    animation-delay: 0s;
-    animation-iteration-count: 1;
-    animation-name: slideInRight;
+
 }
 
 @keyframes slideInRight {
@@ -196,6 +202,13 @@ nav ul li a:hover::after {
 
 .tab-contents.active-tab {
     display: block;
+}
+
+.organisation {
+    text-decoration: none;
+    font-weight: 600;
+    color: #ff004f;
+    cursor: pointer;
 }
 
 /* ----------------services------------- */
@@ -525,3 +538,9 @@ nav .fas {
         transition: none;
     }
 }
+
+/* animation-duration: 1s;
+animation-timing-function: ease-in-out;
+animation-delay: 0s;
+animation-iteration-count: 1;
+animation-name: slideInLeft; */
