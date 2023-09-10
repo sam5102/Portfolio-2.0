@@ -331,9 +331,11 @@
       var sidemenu = document.getElementById("sidemenu");
 
       function openMenu() {
+        sidemenu.style.display = "block";
         sidemenu.style.right = "0";
       }
       function closeMenu(params) {
+        sidemenu.style.display = "none";
         sidemenu.style.right = "-200px";
       }
     </script>

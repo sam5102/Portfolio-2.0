@@ -423,10 +423,11 @@ nav .fas {
 }
 
 @media only screen and (max-width: 600px) {
+
     .flip-card {
         height: 400px;
-        width: 400px;
-        margin-top: 12%;
+        width: 100%;
+        margin-top: 25%;
     }
     .header-content {
         height: 100%;
@@ -440,9 +441,11 @@ nav .fas {
     .flip-card:hover .header-content {
         transform: rotateY(180deg);
     }
+    
     .header-text, .header-img {
         position: absolute;
-        width: 100%;
+        width: 105%;
+        margin-left: -4%;
         height: 100%;
         -webkit-backface-visibility: hidden;
         backface-visibility: hidden;
@@ -455,11 +458,15 @@ nav .fas {
     }
     .header-img > img {
         height: 400px;
-        width: 400px;
+        width: 105%;
     }
 
     .header-text h1 {
         font-size: 30px;
+    }
+
+    #roles {
+        font-size: ;
     }
 
     #about {
@@ -471,6 +478,7 @@ nav .fas {
         font-size: 25px;
     }
     nav ul {
+        display: none;
         background: #ff004f;
         position: fixed;
         top: 0;
@@ -479,7 +487,7 @@ nav .fas {
         height: 100vh;
         padding-top: 50px;
         z-index: 2;
-        transition: right 0.5s;
+        transition: display 0.5s;
     }
     nav ul li {
         display: block;
