@@ -37,8 +37,7 @@ function myJobRoles() {
             }
         } else {
             clearInterval(myInterval)
-            j = 0
-            i = 0
+            j, i = 0
             myDiv.innerHTML = text
             myJobRoles()
         }
